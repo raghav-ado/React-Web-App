@@ -1,0 +1,42 @@
+.Person {
+  width: 60%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border: 0px;
+  color: seagreen;
+  font-size: large;
+  border-bottom: 2px dashed green;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+  outline: none;
+}
+
+.cross {
+  position: relative;
+  color: salmon;
+  left: 14rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cross:hover {
+  color: red;
+}
+
+@media (min-width: 500px) {
+  .Person {
+    width: "450px";
+  }
+}
