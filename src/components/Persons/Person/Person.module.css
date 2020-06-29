@@ -14,7 +14,8 @@ label {
 input[type="text"] {
   border: 0px;
   color: teal;
-  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-bottom: 2px dashed green;
 }
 
