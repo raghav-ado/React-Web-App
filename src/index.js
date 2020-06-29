@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App appTitle="PP Manager" />
+    <App appTitle="Persons Manager" />
   </React.StrictMode>,
   document.getElementById("root")
 );

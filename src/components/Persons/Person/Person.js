@@ -4,16 +4,18 @@ import styles from "./Person.module.css";
 const person = (props) => {
   return (
     <div className={styles.Person}>
-      <span>PP - {props.count}</span>
-      <span className={styles.cross} onClick={props.click}>
-        &times;
+      <span>
+        <span>Person - {props.count}</span>
+        <span className={styles.cross} onClick={props.click}>
+          &times;
+        </span>
       </span>
       <p>
-        Hello I'm {props.name} and I am {props.age} years old
+        Hello I'm <span className={styles.name}>{props.name}</span> and I am{" "}
+        {props.age} years old
       </p>
-      <p>My pp size is {props.pp}.</p>
       <p>{props.children}</p>
-      <label>Enter desired PP size:</label>
+      <label>Edit Name:</label>
       <input type="text" onChange={props.changed} value={props.name} />
     </div>
   );

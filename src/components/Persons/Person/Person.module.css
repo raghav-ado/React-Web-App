@@ -13,7 +13,7 @@ label {
 
 input[type="text"] {
   border: 0px;
-  color: seagreen;
+  color: teal;
   font-size: large;
   border-bottom: 2px dashed green;
 }
@@ -23,10 +23,16 @@ input[type="text"]:active {
   outline: none;
 }
 
+.name {
+  color: teal;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .cross {
-  position: relative;
   color: salmon;
-  left: 14rem;
+  float: right;
   font-size: 1.5rem;
   cursor: pointer;
 }

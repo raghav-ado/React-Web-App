@@ -2,8 +2,12 @@
   color: red;
 }
 
+.yellow {
+  color: orange;
+}
+
 .default {
-  color: slateblue;
+  color: green;
 }
 
 .bold {
